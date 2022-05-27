@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Главная страница</title>
+</head>
+
+<body>
+    <div class="content">
+        <header>
+            <div class="logo">
+                <img src="img/logo.png" width="160" height="178">
+            </div>
+            <nav>
+                <ul class="main-nav">
+                    <li><a href="#">Каталог</a></li>
+                    <li><a href="#">Контакты</a></li>
+                    <li><a href="#">Корзина</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <div class="cart_container">
+
+            <form action="" method="post">
+                <table width="80%">
+
+                    <tbody>
+                        <tr>
+                            <th colspan="2">Товар</th>
+                            <th>Количество</th>
+                            <th>Цена за единицу</th>
+                            <th>Общая сумма</th>
+                            <th></th>
+                        </tr>
+
+                        <tr class="info_about_product">
+                            <td><img src="/assets/img/products/b346e4061fc21844590c15f069d19c1e.jpg" width="75px"
+                                    height="105px"></td>
+                            <td>jfkdsljf</td>
+                            <td>30</td>
+                            <td>300</td>
+                            <td>3600</td>
+                            <td><input type="submit" name="delete" value="x"></td>
+                        </tr>
+
+                        <tr>
+                            <td colspan="4" style="text-align: right;"><strong>ИТОГО:</strong></td>
+                            <td style="text-align: center;"><strong>3600</strong></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td colspan="4" style="text-align: right;"><strong>ЦЕНА СО СКИДКОЙ:</strong></td>
+                            <td style="text-align: center;"><strong>3600</strong></td>
+                            <td>
+                                <input type="submit" id="getOrder" name="getOrder" value="Оформить заказ">
+                            </td>
+                        </tr>
+
+                    </tbody>
+                </table>
+
+                <div class="notification">
+                    <p>
+                        Добавьте продуктов в корзину еще на
+                        сумму <strong>6400 тенге</strong>
+                        и получите скидку <strong>10%!</strong></p>
+                    <a href="/cart/buy-more">Нажмите чтобы добавить!</a>
+                </div>
+
+            </form>
+        </div>
+
+    </div>
+
+    <footer class="footer">
+
+    </footer>
+
+</body>
+
+</html>
